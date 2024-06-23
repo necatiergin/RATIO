@@ -2,7 +2,7 @@
 #include <iostream>
 
 template<intmax_t NUM, intmax_t DEN>
-std::ostream& operator<<(std::ostream& os, std::ratio<NUM, Den> r)
+std::ostream& operator<<(std::ostream& os, std::ratio<NUM, DEN> r)
 {
 	return os << NUM << " / " << DEN;
 }
