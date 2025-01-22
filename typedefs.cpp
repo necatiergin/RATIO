@@ -9,21 +9,20 @@ std::ostream& operator<<(std::ostream& os, std::ratio<NUM, DEN> r)
 
 int main()
 {
-	using namespace std;
-	cout << "peta   = " << peta{} << '\n';
-	cout << "exa    = " << exa{} << '\n';
-	cout << "tera   = " << tera{} << '\n';
-	cout << "giga   = " << giga{} << '\n';
-	cout << "mega   = " << mega{} << '\n';
-	cout << "kilo   = " << kilo{} << '\n';
-	cout << "hecto  = " << hecto{} << '\n';
-	cout << "deca   = " << deca{} << '\n';
-	cout << "deci   = " << deci{} << '\n';
-	cout << "centi  = " << centi{} << '\n';
-	cout << "milli  = " << milli{} << '\n';
-	cout << "micro  = " << micro{} << '\n';
-	cout << "nano   = " << nano{} << '\n';
-	cout << "pico   = " << pico{} << '\n';
-	cout << "femto  = " << femto{} << '\n';
-	cout << "atto   = " << atto{} << '\n';
+	std::cout << "peta   = " << std::peta{} << '\n';
+	std::cout << "exa    = " << std::exa{} << '\n';
+	std::cout << "tera   = " << std::tera{} << '\n';
+	std::cout << "giga   = " << std::giga{} << '\n';
+	std::cout << "mega   = " << std::mega{} << '\n';
+	std::cout << "kilo   = " << std::kilo{} << '\n';
+	std::cout << "hecto  = " << std::hecto{} << '\n';
+	std::cout << "deca   = " << std::deca{} << '\n';
+	std::cout << "deci   = " << std::deci{} << '\n';
+	std::cout << "centi  = " << std::centi{} << '\n';
+	std::cout << "milli  = " << std::milli{} << '\n';
+	std::cout << "micro  = " << std::micro{} << '\n';
+	std::cout << "nano   = " << std::nano{} << '\n';
+	std::cout << "pico   = " << std::pico{} << '\n';
+	std::cout << "femto  = " << std::femto{} << '\n';
+	std::cout << "atto   = " << std::atto{} << '\n';
 }
