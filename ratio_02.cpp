@@ -2,11 +2,9 @@
 
 int main()
 {
-	using namespace std;
+	using two_third = std::ratio<2, 3>;
+	using one_fifth = std::ratio<1, 5>;
 
-	using two_third = ratio<2, 3>;
-	using one_fifth = ratio<1, 5>;
-
-	constexpr auto num = ratio_divide<two_third, one_fifth>::num;
-	constexpr auto den = ratio_divide<two_third, one_fifth>::den;
+	constexpr auto num = std::ratio_divide<two_third, one_fifth>::num;
+	constexpr auto den = std::ratio_divide<two_third, one_fifth>::den;
 }
